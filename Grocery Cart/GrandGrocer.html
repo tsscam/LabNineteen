@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <h1>Shopping Cart</h1>
+    <script src="js/cart.js"></script>
+</head>
+
+<body>
+    <table border=1>
+        <tr>
+            <th>Item</th>
+            <th><button onclick="AddToCart(countBread++)">Bread</button></th>
+            <th><button onclick="AddToCart(countCheese++)">Cheese</button></th>
+            <th><button onclick="AddToCart(countMilk++)">Milk</button></th>
+            <th><button onclick="AddToCart(countTurkey++)">Turkey</button></th>
+
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>$2.25</td>
+            <td>$2.5</td>
+            <td>$3.99</td>
+            <td>$7.75</td>
+        </tr>
+        </tr>
+        <tr>
+            <td>Quantity Added</td>
+            <td><span id="displayCountBread">0</span></td>
+            <td><span id="displayCountCheese">0</span></td>
+            <td><span id="displayCountMilk">0</span></td>
+            <td><span id="displayCountTurkey">0</span></td>
+        </tr>
+        <tr>
+            <td>Total Cost of Items</td>
+            <td>$<span id="Bread">0</span></td>
+            <td>$<span id="Cheese">0</span></td>
+            <td>$<span id="Milk">0</span></td>
+            <td>$<span id="Turkey">0</span></td>
+        </tr>
+        <tr>
+            <td>Checkout Total: </td>
+            <td>$<span id="Total">0</span></td>
+        </tr>
+    </table>
+    </br>
+
+</body>
+
+</html>
